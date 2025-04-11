@@ -5,12 +5,14 @@
 import Form from './Form'
 import Event from './Event'
 import Counter from './Counter'
+import Effect from './Effect'
+import ProductList from './Projects/Store/ProductList'
 // import Fruit from './Fruit'
 function App() {
   
   return <>
-      <Form />
-  </>
+      <ProductList />
+      </>
 }
 
 export default App
